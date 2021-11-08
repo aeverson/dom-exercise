@@ -134,7 +134,7 @@ body {
   <a href="#" class="right">Link</a>
 </div>
 
-<div class="row">
+<div class="row" id="test">
   <div class="side">
     <h2>About Me</h2>
     <h5>Photo of me:</h5>
@@ -166,12 +166,12 @@ body {
 </div>
 
 <script>
-  let content = document.getElementById('side');
+  let content = document.getElementById('test');
   function returnChildren(element){
       console.log(element.children)
   }
   returnChildren(content)
-  
+
 </script>
 
 </body>
