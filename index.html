@@ -166,11 +166,12 @@ body {
 </div>
 
 <script>
-  document.querySelectorAll('.main').forEach(item => {
-      item.addEventListener('click', event => {
-          console.log(item.children);
-      })
-  })
+  let content = document.getElementById('side');
+  function returnChildren(element){
+      console.log(element.children)
+  }
+  returnChildren(content)
+  
 </script>
 
 </body>
